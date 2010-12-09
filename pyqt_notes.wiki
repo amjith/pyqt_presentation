@@ -1,0 +1,22 @@
+    * Launch Qt Designer
+    * Create Project
+    * Design UI - name the class objects appropriately
+    * Set size constraints
+    * pyuic4 AlarmUI.ui -o AlarmUI.py
+    * Stubbed Python code
+    * Run to show the output window
+    * Add resource file
+    * Set icon
+    * pyuic4 AlarmUI.ui -o AlarmUI.py
+    * Run - Error
+    * pyrcc4 Alarm.qrc -o alarm_rc.py
+    * Signals and Slots
+    * Open UI file and connect 
+        * returnPressed
+        * accepted
+        * rejected
+    * Stub the accept() and reject()
+    * Run code to show the call back
+    * Show reference document: http://www.riverbankcomputing.co.uk/static/Docs/PyQt4/html/classes.html
+    * Assign lineEditAlarm to  variable in accept()
+    * Start a timer and connect it to callback. Call back will pop up. 

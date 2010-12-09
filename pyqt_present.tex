@@ -1,0 +1,41 @@
+\documentclass[10pt]{beamer}
+\mode<presentation>
+{
+    \usetheme{Warsaw}
+    % \usetheme{default}
+
+        \setbeamercovered{transparent}
+}
+
+\newcommand{\ls}[1]
+{\dimen0=\fontdimen6\the\font
+    \lineskip=#1\dimen0
+        \advance\lineskip.5\fontdimen5\the\font
+        \advance\lineskip-\dimen0
+        \lineskiplimit=.9\lineskip
+        \baselineskip=\lineskip
+        \advance\baselineskip\dimen0
+        \normallineskip\lineskip
+        \normallineskiplimit\lineskiplimit
+        \normalbaselineskip\baselineskip
+        \ignorespaces
+}
+
+\title{Hands on Intro - PyQt4}
+\author{Amjith Ramanujam}
+\institute{twitter: amjith\_\\
+blog: amjith.blogspot.com}
+
+\date{}
+\begin{document}
+\begin{frame}
+    \titlepage
+\end{frame}
+
+\begin{frame}
+    \frametitle{Getting Started}
+    \begin{block}
+        \begin{itemize}
+        \end{itemize}
+    \end{block}
+\end{frame}

@@ -1,24 +1,10 @@
-\documentclass[10pt]{beamer}
+\documentclass{beamer}
+\usepackage{listings,color}
+%\lstset{language=python}
 \mode<presentation>
 {
     \usetheme{Warsaw}
-    % \usetheme{default}
-
-        \setbeamercovered{transparent}
-}
-
-\newcommand{\ls}[1]
-{\dimen0=\fontdimen6\the\font
-    \lineskip=#1\dimen0
-        \advance\lineskip.5\fontdimen5\the\font
-        \advance\lineskip-\dimen0
-        \lineskiplimit=.9\lineskip
-        \baselineskip=\lineskip
-        \advance\baselineskip\dimen0
-        \normallineskip\lineskip
-        \normallineskiplimit\lineskiplimit
-        \normalbaselineskip\baselineskip
-        \ignorespaces
+    \setbeamercovered{transparent}
 }
 
 \title{Hands on Intro - PyQt4}
@@ -26,16 +12,20 @@
 \institute{twitter: amjith\_\\
 blog: amjith.blogspot.com}
 
-\date{}
+%\begin{frame}
+%\titlepage
+%\end{frame}
+
 \begin{document}
 \begin{frame}
-    \titlepage
-\end{frame}
-
-\begin{frame}
     \frametitle{Getting Started}
-    \begin{block}
-        \begin{itemize}
-        \end{itemize}
+    \begin{block}{}
     \end{block}
 \end{frame}
+\begin{block}{}
+\begin{lstlisting}
+pyuic4 AlarmUI.ui -o AlarmUI.py
+\end{lstlisting}
+\end{block}
+
+\end{document}
